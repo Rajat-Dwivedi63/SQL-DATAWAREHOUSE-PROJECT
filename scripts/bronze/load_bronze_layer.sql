@@ -1,4 +1,4 @@
-/* This is used to add the data frome the csv files crm and erp into the tables and also to calculate the time taken to complete  the loading process*/ 
+/* This is used to add the data frome the csv files crm and erp into the tables and also to calculate the time taken to complete  the loading process it also check for errores*/ 
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS
 BEGIN
 	BEGIN TRY
